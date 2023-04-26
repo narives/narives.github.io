@@ -1,0 +1,48 @@
+.App {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.board {
+  width: 800px;
+  height: 600px;
+  background-color: rgb(190, 207, 201);
+  display: flex;
+  flex-direction: column;
+}
+.square {
+  width: 12.5%;
+  height: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+  flex: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+.emptysquare {
+  width: 12.5%;
+  height: 100%;
+
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.square:active {
+  background-color: #64f4c4;
+}
