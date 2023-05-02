@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -17,8 +18,8 @@ body {
   flex-direction: column;
 }
 .square {
-  width: 12.5%;
-  height: 100%;
+  width: 12.45%;
+  height: 98%;
   border: 1px solid rgb(0, 0, 0);
   cursor: pointer;
   display: grid;
@@ -34,9 +35,8 @@ body {
 
 }
 .emptysquare {
-  width: 12.5%;
-  height: 100%;
-
+  width: 75%;
+  height: 400%;
   display: grid;
   place-items: center;
   font-size: 15px;

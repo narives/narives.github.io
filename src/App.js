@@ -2,12 +2,15 @@ import './App.css';
 import { useState } from 'react';
 import Square from './Components/Square';
 import EmptySquare from './Components/EmptySquare';
+import PlayerInfo from './Components/PlayerInfo';
+import Dice from './Components/Dice';
 
 function App() {
 
   const board = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
   return (
     <div className="App">
+      <PlayerInfo />
       <div className='board'>
         <div className='row'>
           <Square val = {board[12]}/>
@@ -21,42 +24,20 @@ function App() {
        </div>
         <div className='row'>
           <Square val = {board[11]}/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
+          <EmptySquare>
+          </EmptySquare>
           <Square val = {board[20]}/>
         </div>
         <div className='row'>
           <Square val = {board[10]}/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
           <Square val = {board[21]}/>
         </div>
         <div className='row'>
           <Square val = {board[9]}/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
           <Square val = {board[22]}/>
         </div>
         <div className='row'>
           <Square val = {board[8]}/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
-          <EmptySquare/>
           <Square val = {board[23]}/>
         </div>
         <div className='row'>
