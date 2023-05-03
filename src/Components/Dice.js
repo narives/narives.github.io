@@ -5,7 +5,7 @@ function Dice() {
 	
   return (
     <div>
-      <img className='diceImage' src='img/dice.png' />
+      <img className='diceImage' src='img/Dice.jpeg' />
     </div>
   )
 }

@@ -3,7 +3,8 @@ import React from 'react'
 function EmptySquare({children}) {
   return (
     <div className='emptysquare'>
-      <div>
+      <div className='maintext'>
+        BOARDGAME
         {children}
       </div>
     </div>

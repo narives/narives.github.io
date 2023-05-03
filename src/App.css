@@ -13,14 +13,21 @@ body {
 .board {
   width: 800px;
   height: 600px;
-  background-color: rgb(190, 207, 201);
-  display: flex;
-  flex-direction: column;
+  background-color: rgb(132, 175, 137);
+  display: inline-grid;
+  grid-template-columns: repeat(8, 100px);
+	grid-template-rows: repeat(6, 100px);
+}
+.item1 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 8;
 }
 .square {
-  width: 12.45%;
-  height: 98%;
-  border: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px inset;
   cursor: pointer;
   display: grid;
   place-items: center;
@@ -28,19 +35,14 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-.row {
-  flex: auto;
-  display: flex;
-  flex-direction: row;
-
-}
 .emptysquare {
-  width: 75%;
-  height: 400%;
+  width: 600px;
+  height: 400px;
   display: grid;
   place-items: center;
   font-size: 15px;
-  color: black;
+  box-shadow: 0 0 0 1px inset;
+  background-color: rgb(138, 214, 154);
   font-family: Arial, Helvetica, sans-serif;
 }
 .square:active {
