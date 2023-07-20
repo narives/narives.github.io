@@ -1,0 +1,55 @@
+@font-face {
+  font-family: '태백은하수체';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+  font-family: '태백은하수체';
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffa5a5;
+  color: #000000;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* 스크롤 애니메이션을 위한 부드러운 스크롤링 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 새로운 스타일 추가 */
+.content-container {
+  margin-top: 50px; /* 메뉴바의 높이에 맞게 컨텐츠를 아래로 밀어줍니다. */
+}
