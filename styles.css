@@ -1,41 +1,12 @@
-@font-face {
-  font-family: '태백은하수체';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2')
-    format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+/* app.css 파일 */
 
-@font-face {
-  font-family: '파셜산스';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2')
-    format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-#Name {
-  font-family: '파셜산스', Arial, sans-serif;
-  font-size: 30px;
-  /* 기타 원하는 스타일을 추가로 설정할 수 있습니다. */
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  height: 1000px;
-  font-family: '태백은하수체';
-  font-weight: bold;
-  letter-spacing: 1px;
-  line-height: 1.5;
-}
-
+/* 메뉴바 스타일 */
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffa5a5;
+  background-color: #eeb7d1;
   color: #000000;
   padding: 10px;
 }
@@ -50,20 +21,241 @@ nav ul {
 
 nav ul li {
   margin: 0 10px;
+  font-size: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
 }
 
 nav ul li a {
-  color: #000000;
+  color: #6b98d3;
   text-decoration: none;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
-/* 스크롤 애니메이션을 위한 부드러운 스크롤링 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
 html {
-  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
-/* 새로운 스타일 추가 */
-.content-container {
-  margin-top: 50px; /* 메뉴바의 높이에 맞게 컨텐츠를 아래로 밀어줍니다. */
+section {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  position: fixed;
+}
+
+b {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 네비게이션 */
+#bthome {
+  color: #bbbbbb;
+}
+b {
+  font-size: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 5px;
+}
+b:hover {
+  color: black;
+}
+
+/* Window 1 */
+#window1 {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#intro {
+  position: absolute;
+  top: 50%;
+  height: 240px;
+  margin-top: -200px;
+}
+#intro h1 {
+  color: #eeb7d1;
+  margin-top: 175px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  text-align: center;
+}
+
+/* Window 2 */
+#window2 {
+  background: #feac5e;
+  background: -webkit-linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
+  background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#window2 h1 {
+  margin-top: 120px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -45px;
+}
+
+#about h2 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+#about p {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Window 3 */
+#window3 {
+  margin: 0;
+  padding: 0;
+  background: #e9ace1;
+  background: -webkit-linear-gradient(to right, #e078be, #f7c18e, #fcfa80);
+  background: linear-gradient(to right, #e078be, #f7c18e, #fcfa80);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#window3 h1 {
+  margin-top: 120px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#window3 h2 {
+  margin-top: 65px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+}
+
+/* Window 4 */
+#window4 {
+  margin: 0;
+  padding: 0;
+  background: #70e1f5;
+  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
+  background: linear-gradient(to right, #ffd194, #70e1f5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#window4 h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#window4 h2 {
+  margin-top: 75px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Window 5 */
+#window5 {
+  background: #b993d6;
+  background: -webkit-linear-gradient(to right, #8ca6db, #b993d6);
+  background: linear-gradient(to right, #8ca6db, #b993d6);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#window5 h1 {
+  margin-top: 120px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+.imglist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 170px;
+}
+.imglist img {
+  width: 100px;
+  margin: 10px;
+  padding: 50px;
 }
