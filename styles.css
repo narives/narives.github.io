@@ -224,7 +224,7 @@ b:hover {
 
 /* Window 4 */
 #window4 {
-  background-image: url('sky4.png');
+  background-image: url('sky4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -255,6 +255,28 @@ b:hover {
   color: #fff;
   line-height: 2.5;
   text-align: center;
+}
+
+#window4 .img-content1 {
+  position: absolute;
+  left: 270px;
+  top: 0;
+  margin-top: 100px;
+}
+
+#window4 .img-content1 img {
+  margin-bottom: 40px;
+}
+
+#window4 .img-content2 {
+  position: absolute;
+  left: 1330px;
+  top: 0;
+  margin-top: 100px;
+}
+
+#window4 .img-content2 img {
+  margin-bottom: 40px;
 }
 
 /* Window 5 */
