@@ -6,9 +6,11 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #eeb7d1;
+  height: 40px;
+  background-color: #ffc1ea;
   color: #000000;
   padding: 10px;
+  z-index: 10;
 }
 
 nav ul {
@@ -40,6 +42,7 @@ nav ul li a {
 
 body,
 html {
+  position: relative;
   margin: 0;
   padding: 0;
 }
@@ -84,24 +87,27 @@ b:hover {
 
 /* Window 1 */
 #window1 {
-  background-image: url('background.png');
+  background-image: url('sky1.PNG');
   background-repeat: no-repeat;
   background-size: cover;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  flex-direction: column;
+  position: relative;
 }
+
 #intro {
   position: absolute;
   top: 50%;
   height: 240px;
-  margin-top: -200px;
+  margin-top: -230px;
 }
 #intro h1 {
-  color: #eeb7d1;
+  color: #ca95da;
   margin-top: 175px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
@@ -111,18 +117,21 @@ b:hover {
 
 /* Window 2 */
 #window2 {
-  background: #feac5e;
-  background: -webkit-linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
-  background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
+  background-image: url('sky2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  flex-direction: column;
+  position: relative;
 }
 
 #window2 h1 {
-  margin-top: 0px;
+  margin-top: 135px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 64px;
@@ -131,39 +140,55 @@ b:hover {
   text-align: center;
 }
 
-#window2 h2 {
-  margin-top: 40px;
+#window2 .text-content {
+  margin-top: -25px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 30px;
   color: #fff;
   line-height: 1;
   text-align: center;
 }
 
-#window2 p {
-  margin-top: 40px;
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #fff;
+#window2 h2 {
+  font-size: 35px;
   line-height: 1;
-  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#window2 p {
+  font-size: 25px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+#window2 .image1 {
+  margin-top: 190px;
+  margin-left: -1050px;
+  width: 470px;
+  position: absolute;
+}
+
+#window2 .image2 {
+  margin-top: 190px;
+  margin-right: -1050px;
+  width: 470px;
+  position: absolute;
 }
 
 /* Window 3 */
 #window3 {
+  background-image: url('sky3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
-  background: #e9ace1;
-  background: -webkit-linear-gradient(to right, #e078be, #f7c18e, #fcfa80);
-  background: linear-gradient(to right, #e078be, #f7c18e, #fcfa80);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  position: relative;
 }
 
 #window3 h1 {
@@ -178,6 +203,7 @@ b:hover {
 
 #window3 h2 {
   margin-top: 45px;
+  margin-right: 0px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -186,24 +212,37 @@ b:hover {
   text-align: center;
 }
 
+#window3 .image1 {
+  margin-top: 190px;
+  margin-right: -1100px;
+  width: 650px;
+  position: absolute;
+}
+
+#window3 .image2 {
+  margin-top: 190px;
+  margin-left: -1100px;
+  width: 650px;
+  position: absolute;
+}
+
 /* Window 4 */
 #window4 {
+  background-image: url('sky4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
-  background: #70e1f5;
-  background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
-  background: linear-gradient(to right, #ffd194, #70e1f5);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  position: relative;
 }
 
-#window4 h1 {
-  margin-top: 0px;
-  margin-bottom: 10px;
+#window4 .text-content h1 {
+  margin-top: 135px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 64px;
@@ -212,21 +251,49 @@ b:hover {
   text-align: center;
 }
 
-#window4 h2 {
-  margin-top: 65px;
+#window4 .text-content h2 {
+  margin-top: 70px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: #fff;
-  line-height: 1.5;
+  line-height: 2;
   text-align: center;
+}
+
+#window4 .img-content .img-content1 {
+  position: absolute;
+  left: 270px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+
+#window4 .img-content .img-content1 img {
+  margin-bottom: 40px;
+}
+
+#window4 .img-content .img-content2 {
+  position: absolute;
+  right: 270px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+#window4 .img-content .img-content2 img {
+  margin-bottom: 40px;
 }
 
 /* Window 5 */
 #window5 {
-  background: #b993d6;
-  background: -webkit-linear-gradient(to right, #8ca6db, #b993d6);
-  background: linear-gradient(to right, #8ca6db, #b993d6);
+  background-image: url('cat.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -234,8 +301,9 @@ b:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  position: relative;
 }
+
 #window5 h1 {
   margin-top: 120px;
   margin-bottom: 10px;
@@ -250,7 +318,7 @@ b:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .imglist img {
   width: 100px;

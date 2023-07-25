@@ -14,4 +14,7 @@ $(document).ready(function() {
       $('html, body').animate({ scrollTop: targetPosition }, 500);
     });
   });
-  
+
+window.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+});
