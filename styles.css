@@ -87,7 +87,7 @@ b:hover {
 
 /* Window 1 */
 #window1 {
-  background-image: url('sky1.PNG');
+  background-image: url('sky1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -117,7 +117,7 @@ b:hover {
 
 /* Window 2 */
 #window2 {
-  background-image: url('sky2.png');
+  background-image: url('sky2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -178,7 +178,7 @@ b:hover {
 
 /* Window 3 */
 #window3 {
-  background-image: url('sky3.png');
+  background-image: url('sky3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -228,7 +228,7 @@ b:hover {
 
 /* Window 4 */
 #window4 {
-  background-image: url('sky4.png');
+  background-image: url('sky4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -291,7 +291,7 @@ b:hover {
 
 /* Window 5 */
 #window5 {
-  background-image: url('cat.png');
+  background-image: url('cat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
