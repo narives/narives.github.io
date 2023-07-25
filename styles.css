@@ -171,7 +171,7 @@ b:hover {
 
 #window2 .image2 {
   margin-top: 190px;
-  margin-right: -1050px;
+  margin-left: 1050px;
   width: 470px;
   position: absolute;
 }
@@ -203,7 +203,6 @@ b:hover {
 
 #window3 h2 {
   margin-top: 45px;
-  margin-right: 0px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -214,7 +213,7 @@ b:hover {
 
 #window3 .image1 {
   margin-top: 190px;
-  margin-right: -1100px;
+  margin-left: 1100px;
   width: 650px;
   position: absolute;
 }
@@ -277,7 +276,7 @@ b:hover {
 
 #window4 .img-content .img-content2 {
   position: absolute;
-  right: 270px;
+  left: -270px;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -324,4 +323,12 @@ b:hover {
   width: 100px;
   margin: 10px;
   padding: 50px;
+}
+
+#window1,
+#window2,
+#window3,
+#window4,
+#window5 {
+  overflow-x: hidden; /* 가로 스크롤 숨기기 */
 }
