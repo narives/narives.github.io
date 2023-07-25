@@ -140,7 +140,7 @@ b:hover {
   font-weight: 400;
   font-size: 64px;
   color: #fff;
-  line-height: 1.5;
+  line-height: 0.5;
   text-align: center;
 }
 
@@ -150,7 +150,7 @@ b:hover {
   font-weight: 400;
   font-size: 30px;
   color: #fff;
-  line-height: 1.5;
+  line-height: 1;
   text-align: center;
 }
 
@@ -158,21 +158,19 @@ b:hover {
   margin-top: 45px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
-  line-height: 1.5;
+  line-height: 0.5;
   text-align: center;
 }
 
 #window2 .image1 {
-  margin-top: 190px;
   margin-left: -1050px;
   width: 470px;
   position: absolute;
 }
 
 #window2 .image2 {
-  margin-top: 190px;
   margin-left: 1050px;
   width: 470px;
   position: absolute;
@@ -213,14 +211,12 @@ b:hover {
 }
 
 #window3 .image1 {
-  margin-top: 190px;
   margin-left: 1100px;
   width: 650px;
   position: absolute;
 }
 
 #window3 .image2 {
-  margin-top: 190px;
   margin-left: -1100px;
   width: 650px;
   position: absolute;
@@ -241,27 +237,27 @@ b:hover {
   position: relative;
 }
 
-#window4 .text-content h1 {
-  margin-top: 135px;
+#window4 h1 {
+  margin-top: 0px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 64px;
-  color: #fff;
-  line-height: 1.5;
-  text-align: center;
-}
-
-#window4 .text-content h2 {
-  margin-top: 70px;
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
-  font-size: 30px;
   color: #fff;
   line-height: 2;
   text-align: center;
 }
 
-#window4 .img-content .img-content1 {
+#window4 h2 {
+  margin-top: 45px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  line-height: 2.5;
+  text-align: center;
+}
+
+#window4 .img-content1 {
   position: absolute;
   left: 270px;
   top: 0;
@@ -271,11 +267,11 @@ b:hover {
   margin-top: 100px;
 }
 
-#window4 .img-content .img-content1 img {
+#window4 .img-content1 img {
   margin-bottom: 40px;
 }
 
-#window4 .img-content .img-content2 {
+#window4 .img-content2 {
   position: absolute;
   left: -270px;
   top: 0;
@@ -285,7 +281,7 @@ b:hover {
   margin-top: 100px;
 }
 
-#window4 .img-content .img-content2 img {
+#window4 .img-content2 img {
   margin-bottom: 40px;
 }
 
