@@ -107,7 +107,7 @@ b:hover {
   margin-top: -230px;
 }
 #intro h1 {
-  color: #ca95da;
+  color: #d39ee7;
   margin-top: 175px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
@@ -321,5 +321,5 @@ b:hover {
 #window3,
 #window4,
 #window5 {
-  overflow-x: hidden; /* 가로 스크롤 숨기기 */
+  overflow-x: hidden;
 }
