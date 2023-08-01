@@ -226,7 +226,7 @@ b:hover {
 }
 
 #window2 #activity {
-  top: 63.5%;
+  top: 64.5%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -238,7 +238,7 @@ b:hover {
 #window2 h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 10px;
   color: #fff;
   line-height: 2.3;
   text-align: center;
@@ -247,7 +247,7 @@ b:hover {
 #window2 h3 {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 19px;
   color: #fff;
   line-height: 2.3;
   text-align: center;
@@ -256,7 +256,7 @@ b:hover {
 #window2 p {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 8px;
   color: #fff;
   line-height: 2;
   text-align: center;
@@ -308,7 +308,7 @@ b:hover {
 }
 
 #window3 .image1 {
-  top: 47%;
+  top: 49%;
   left: 20%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -364,7 +364,7 @@ b:hover {
   font-weight: 400;
   font-size: 17px;
   color: #fff;
-  line-height: 6;
+  line-height: 5;
   text-align: center;
 }
 
