@@ -2,17 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hi, I'm Nahyun!</title>
+    <title>nariveshere.io</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" media="(max-width: 767px)" href="mobile.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="desktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;600&family=Shrikhand&display=swap" rel="stylesheet">
-  </head>
+  </head>  
+
   <body>
     <nav>
       <ul>
         <li><a href="#window1">Intro🙌</a></li>
-        <li><a href="#window2">About✨</a></li>
+        <li><a href="#window2">About🫧</a></li>
         <li><a href="#window3">Skills🖥️</a></li>
         <li><a href="#window4">What I Love❤️</a></li>
         <li><a href="#window5">Channels🔗</a></li>
@@ -27,78 +29,101 @@
       </div>
 
       <div id="window2">
-        <h1>About✨</h1>
-        <br>
-        <h2>SKKRYPTO</h2>
-        <p>10th Research&amp;Dev Team</p>
-        <p>10th Promotional Team Leader</p>
-        <p>11th Dev Team Leader</p>
-        <h2>SKKU</h2>
-        <p>Business Administration</p>
-        <p>Software</p>
-        <h2>PFLHS</h2>
-        <p>ENG&amp;JPN</p>
-        <p>24th Vice President</p>
-        <img src="nahyun1.jpg" class="image1">
-        <img src="nahyun2.jpg" class="image2">      
+        <div id="about">
+          <h1>About🫧</h1>
+        </div>
+        <div class="slide-container">
+          <div class="slide-album">
+            <div class="slide-images">
+              <img src="src/nahyun1.jpg">
+              <img src="src/nahyun2.jpg">
+              <img src="src/nahyun3.jpg">
+              <img src="src/nahyun4.jpg">
+              <img src="src/nahyun5.jpg">
+            </div>
+            <button class="btn-next">▶</button>
+            <button class="btn-prev">◀</button>
+          </div>
+        </div>
+        <div id = "profile">
+          <h2>Name: Kang Na Hyun (NARI)</h2>
+          <h2>Birth: 2002.07.25</h2>
+          <h2>Location: Seoul, Korea</h2>
+          <h2>Education:</h2>
+          <h3>SKKU</h3>
+          <p>-Business Administration&amp;Software</p>
+          <h3>PFLHS</h3>
+          <p>-ENG&amp;JPN, 24th Vice Presiden</p>
+        </div>
+        <div id = "activity">
+          <h2>Activity:</h2>
+          <h3>SKKRYPTO</h3>
+          <p>-10th Research&amp;Dev Team</p>
+          <p>-10th Public Relations Team Leader</p>
+          <p>-11th Dev Team Leader</p>
+          <h3>CoMit</h3>
+          <p>-Web Dev Team</p>
+          <h3>GGUN</h3>
+          <p>-25th Vocal Team</p>
+        </div>
+        </div>
       </div>
-
       <div id="window3">
         <h1>Skills🖥️</h1>
-        <br>
-        <h2>Korean / English / Japanese</h2>
-        <h2>Solidity</h2>
-        <h2>Python</h2>
-        <h2>C</h2>
-        <h2>JS</h2>
-        <h2>HTML/CSS</h2>
-        <img src="bunny1.png" class="image1">
-        <img src="bunny2.png" class="image2">
+        <div id ="skills">
+          <h2>Korean / English / Japanese</h2>
+          <h2>Solidity</h2>
+          <h2>Python</h2>
+          <h2>C</h2>
+          <h2>JS</h2>
+          <h2>HTML/CSS</h2>
+        </div>
+        <img src="src/bunny1.png" class="image1">
+        <img src="src/bunny2.png" class="image2">
       </div>
 
       <div id="window4">
         <h1>What I Love❤️</h1>
-        <h2>Developing</h2><br>
-        <h2>Fashion</h2><br>
-        <h2>Singing</h2><br>
-        <h2>Film</h2>
-        <div class="img-content1">
-          <img src = "clothes1.png"><br>
-          <img src = "clothes2.png"><br>
-          <img src = "clothes3.png">
+        <div id="loves">
+          <h2>Developing</h2><br>
+          <h2>Fashion</h2><br>
+          <h2>Singing</h2><br>
+          <h2>Film</h2>
         </div>
-        <div class="img-content2">
-          <img src = "clothes4.png"><br>
-          <img src = "clothes5.png"><br>
-          <img src = "clothes6.png">
-        </div>
+        <img src = "src/clothes1.png" class="img1">
+        <img src = "src/clothes2.png" class="img2">
+        <img src = "src/clothes3.png" class="img3">
+        <img src = "src/clothes4.png" class="img4">
+        <img src = "src/clothes5.png" class="img5">
+        <img src = "src/clothes6.png" class="img6">
       </div>  
       
       <div id="window5">
         <h1>Channels🔗</h1>
         <div class="imglist">
           <a href="mailto:nariveshere@gmail.com">
-            <img src="gmail.png">
+            <img src="src/gmail.png">
           </a>
           <a href="https://t.me/narives">
-            <img src="telegram.png">
+            <img src="src/telegram.png">
           </a>
           <a href="https://github.com/nuyhank">
-            <img src="github.png" alt="">
+            <img src="src/github.png" alt="">
           </a>
           <a href="https://medium.com/@nahyun1492">
-            <img src="medium.png" alt="">
+            <img src="src/medium.png" alt="">
           </a>
           <a href="https://velog.io/@nahyun1492">
-            <img src="velog.png" alt="">
+            <img src="src/velog.png" alt="">
             <a href="https://www.instagram.com/7m25s">
-              <img src="insta.png" alt="">
+              <img src="src/insta.png" alt="">
             <a href="https://soundcloud.com/nari-622152624">
-              <img src="soundcloud.png" alt="">
+              <img src="src/soundcloud.png" alt="">
             </a>
           </a>
         </div>
       </div>
     </section>
   </body>
+  <script type="text/javascript" src="main.js"></script>
 </html>
