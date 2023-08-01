@@ -6,7 +6,7 @@ nav {
   left: 0;
   width: 100%;
   height: 2%;
-  background-color: #ff00ae;
+  background-color: #fabce6;
   color: #000000;
   padding: 10px;
   z-index: 10;
@@ -25,12 +25,13 @@ nav ul li {
   font-size: 8px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
+  text-align: center;
 }
 
 nav ul li a {
   color: #6b98d3;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 5px;
   cursor: pointer;
 }
 
@@ -146,8 +147,8 @@ b:hover {
 }
 
 #window2 .slide-container {
-  width: 140px;
-  height: 180px;
+  width: 112px;
+  height: 144px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 20px;
@@ -159,20 +160,20 @@ b:hover {
 
 #window2 .slide-album {
   position: relative;
-  width: 140px;
-  height: 180px;
+  width: 112px;
+  height: 144px;
   overflow: hidden;
   border-radius: 20px;
 }
 #window2 .slide-images {
   position: relative;
   display: flex;
-  width: 700px;
+  width: 560px;
   height: 180px;
   transition: transform 0.5s ease-out;
 }
 #window2 .slide-images img {
-  width: 140px;
+  width: 112px;
   height: auto;
 }
 
@@ -215,7 +216,7 @@ b:hover {
 }
 
 #window2 #profile {
-  top: 37%;
+  top: 35%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -225,7 +226,7 @@ b:hover {
 }
 
 #window2 #activity {
-  top: 65.5%;
+  top: 64.5%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -237,9 +238,9 @@ b:hover {
 #window2 h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
-  line-height: 2.5;
+  line-height: 2.3;
   text-align: center;
 }
 
@@ -248,16 +249,16 @@ b:hover {
   font-weight: 400;
   font-size: 11px;
   color: #fff;
-  line-height: 2.5;
+  line-height: 2.3;
   text-align: center;
 }
 
 #window2 p {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 9px;
   color: #fff;
-  line-height: 2.2;
+  line-height: 2;
   text-align: center;
 }
 
@@ -302,7 +303,7 @@ b:hover {
   font-weight: 400;
   font-size: 15px;
   color: #fff;
-  line-height: 6.5;
+  line-height: 4.5;
   text-align: center;
 }
 
@@ -340,7 +341,7 @@ b:hover {
 }
 
 #window4 h1 {
-  top: 15%;
+  top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Palanquin Dark', sans-serif;
@@ -438,7 +439,7 @@ b:hover {
 }
 
 .gmail {
-  top: 27%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -446,7 +447,7 @@ b:hover {
 }
 
 .telegram {
-  top: 37%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -454,7 +455,7 @@ b:hover {
 }
 
 .github {
-  top: 47%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -462,7 +463,7 @@ b:hover {
 }
 
 .medium {
-  top: 57%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -470,7 +471,7 @@ b:hover {
 }
 
 .velog {
-  top: 67%;
+  top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -478,7 +479,7 @@ b:hover {
 }
 
 .insta {
-  top: 77%;
+  top: 78%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -486,7 +487,7 @@ b:hover {
 }
 
 .soundcloud {
-  top: 87%;
+  top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
