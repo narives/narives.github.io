@@ -169,7 +169,7 @@ b:hover {
   position: relative;
   display: flex;
   width: 560px;
-  height: 180px;
+  height: 144px;
   transition: transform 0.5s ease-out;
 }
 #window2 .slide-images img {
