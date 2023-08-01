@@ -424,7 +424,7 @@ b:hover {
 }
 
 .gmail {
-  top: 52%;
+  top: 50%;
   left: 11%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -432,7 +432,7 @@ b:hover {
 }
 
 .telegram {
-  top: 52%;
+  top: 50%;
   left: 24%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -440,7 +440,7 @@ b:hover {
 }
 
 .github {
-  top: 52%;
+  top: 50%;
   left: 37%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -448,7 +448,7 @@ b:hover {
 }
 
 .medium {
-  top: 52%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -456,7 +456,7 @@ b:hover {
 }
 
 .velog {
-  top: 52%;
+  top: 50%;
   left: 63%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -464,7 +464,7 @@ b:hover {
 }
 
 .insta {
-  top: 52%;
+  top: 50%;
   left: 76%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -472,7 +472,7 @@ b:hover {
 }
 
 .soundcloud {
-  top: 52%;
+  top: 50%;
   left: 89%;
   transform: translate(-50%, -50%);
   width: 150px;
