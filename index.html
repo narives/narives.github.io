@@ -100,30 +100,44 @@
       
       <div id="window5">
         <h1>Channels🔗</h1>
-        <div class="imglist">
-          <a href="mailto:nariveshere@gmail.com">
-            <img src="src/gmail.png">
-          </a>
-          <a href="https://t.me/narives">
-            <img src="src/telegram.png">
-          </a>
-          <a href="https://github.com/nuyhank">
-            <img src="src/github.png" alt="">
-          </a>
-          <a href="https://medium.com/@nahyun1492">
-            <img src="src/medium.png" alt="">
-          </a>
-          <a href="https://velog.io/@nahyun1492">
-            <img src="src/velog.png" alt="">
-            <a href="https://www.instagram.com/7m25s">
-              <img src="src/insta.png" alt="">
-            <a href="https://soundcloud.com/nari-622152624">
-              <img src="src/soundcloud.png" alt="">
-            </a>
+        <a href="mailto:nariveshere@gmail.com">
+          <img src="src/gmail.png" class="gmail">
+        </a>
+        <a href="https://t.me/narives">
+          <img src="src/telegram.png" class="telegram">
+        </a>
+        <a href="https://github.com/nuyhank">
+          <img src="src/github.png" class="github">
+        </a>
+        <a href="https://medium.com/@nahyun1492">
+          <img src="src/medium.png" class="medium">
+        </a>
+        <a href="https://velog.io/@nahyun1492">
+          <img src="src/velog.png" class="velog">
+        <a href="https://www.instagram.com/7m25s">
+          <img src="src/insta.png" class="insta">
+        <a href="https://soundcloud.com/nari-622152624">
+          <img src="src/soundcloud.png" class="soundcloud">
+        </a>
           </a>
         </div>
       </div>
     </section>
   </body>
-  <script type="text/javascript" src="main.js"></script>
+  <!-- 모바일 버전 JavaScript -->
+  <script>
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      var script = document.createElement('script');
+      script.src = 'mobile.js';
+      document.body.appendChild(script);
+    }
+  </script>
+  <!-- 데스크탑 버전 JavaScript -->
+  <script>
+    if (window.matchMedia("(min-width: 768px)").matches) {
+      var script = document.createElement('script');
+      script.src = 'desktop.js';
+      document.body.appendChild(script);
+    }
+  </script>
 </html>

@@ -423,17 +423,60 @@ b:hover {
   position: absolute;
 }
 
-.imglist {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  top: 37%;
+.gmail {
+  top: 52%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  width: 150px;
   position: absolute;
 }
-.imglist img {
-  width: 100px;
-  margin: 10px;
-  padding: 50px;
+
+.telegram {
+  top: 52%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
+}
+
+.github {
+  top: 52%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
+}
+
+.medium {
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
+}
+
+.velog {
+  top: 52%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
+}
+
+.insta {
+  top: 52%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
+}
+
+.soundcloud {
+  top: 52%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  position: absolute;
 }
 
 #window1,
