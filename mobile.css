@@ -155,7 +155,7 @@ b:hover {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 25%;
+  top: 27%;
 }
 
 #window2 .slide-album {
@@ -216,7 +216,7 @@ b:hover {
 }
 
 #window2 #profile {
-  top: 38%;
+  top: 39%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -226,7 +226,7 @@ b:hover {
 }
 
 #window2 #activity {
-  top: 62.5%;
+  top: 65.5%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
