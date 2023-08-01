@@ -6,7 +6,7 @@ nav {
   left: 0;
   width: 100%;
   height: 2%;
-  background-color: #fabce6;
+  background-color: #ff00ae;
   color: #000000;
   padding: 10px;
   z-index: 10;
@@ -22,7 +22,7 @@ nav ul {
 
 nav ul li {
   margin: 0 10px;
-  font-size: 17px;
+  font-size: 10px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
 }
@@ -138,7 +138,7 @@ b:hover {
   transform: translate(-50%, -50%);
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 27px;
   color: #fff;
   line-height: 1.5;
   text-align: center;
@@ -215,7 +215,7 @@ b:hover {
 }
 
 #window2 #profile {
-  top: 47%;
+  top: 37%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -225,7 +225,7 @@ b:hover {
 }
 
 #window2 #activity {
-  top: 72.5%;
+  top: 62.5%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -282,7 +282,7 @@ b:hover {
   transform: translate(-50%, -50%);
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 27px;
   color: #fff;
   line-height: 1.5;
   text-align: center;
@@ -307,7 +307,7 @@ b:hover {
 }
 
 #window3 .image1 {
-  top: 37%;
+  top: 47%;
   left: 20%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -345,7 +345,7 @@ b:hover {
   transform: translate(-50%, -50%);
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 27px;
   color: #fff;
   line-height: 1.5;
   text-align: center;
@@ -371,42 +371,42 @@ b:hover {
   position: absolute;
   top: 24%;
   left: 8%;
-  width: 115px;
+  width: 85px;
 }
 
 .img2 {
   position: absolute;
   top: 50%;
   left: 5%;
-  width: 145px;
+  width: 115px;
 }
 
 .img3 {
   position: absolute;
   top: 72%;
   left: 8%;
-  width: 130px;
+  width: 100px;
 }
 
 .img4 {
   position: absolute;
   top: 35%;
   left: 66%;
-  width: 145px;
+  width: 115px;
 }
 
 .img5 {
   position: absolute;
   top: 57%;
   left: 67%;
-  width: 130px;
+  width: 100px;
 }
 
 .img6 {
   position: absolute;
   top: 78%;
   left: 67%;
-  width: 130px;
+  width: 100px;
 }
 
 /* Window 5 */
@@ -430,7 +430,7 @@ b:hover {
   transform: translate(-50%, -50%);
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 27px;
   color: #fff;
   line-height: 1.5;
   text-align: center;
@@ -441,7 +441,7 @@ b:hover {
   top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
@@ -449,7 +449,7 @@ b:hover {
   top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
@@ -457,7 +457,7 @@ b:hover {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
@@ -465,7 +465,7 @@ b:hover {
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
@@ -473,7 +473,7 @@ b:hover {
   top: 67%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
@@ -481,7 +481,7 @@ b:hover {
   top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
@@ -489,7 +489,7 @@ b:hover {
   top: 87%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
+  width: 35px;
   position: absolute;
 }
 
