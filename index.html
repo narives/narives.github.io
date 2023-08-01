@@ -5,8 +5,8 @@
     <title>nariveshere.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="mobile.css" />
-    <link rel="stylesheet" media="screen and (min-width: 901px)" href="desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 798px)" href="mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 799px)" href="desktop.css" />
     <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;600&family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>    
@@ -127,7 +127,7 @@
   </body>
   <!-- 모바일 버전 JavaScript -->
   <script>
-    if (window.matchMedia("(max-width: 900px)").matches) {
+    if (window.matchMedia("(max-width: 798px)").matches) {
       var script = document.createElement('script');
       script.src = 'mobile.js';
       document.body.appendChild(script);
@@ -135,7 +135,7 @@
   </script>
   <!-- 데스크탑 버전 JavaScript -->
   <script>
-    if (window.matchMedia("(min-width: 901px)").matches) {
+    if (window.matchMedia("(min-width: 799px)").matches) {
       var script = document.createElement('script');
       script.src = 'desktop.js';
       document.body.appendChild(script);
