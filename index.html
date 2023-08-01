@@ -8,7 +8,7 @@
     <link rel="stylesheet" media="(max-width: 767px)" href="mobile.css">
     <link rel="stylesheet" media="(min-width: 768px)" href="desktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;600&family=Shrikhand&display=swap" rel="stylesheet">
-  </head>  
+  </head>    
 
   <body>
     <nav>
@@ -124,20 +124,20 @@
       </div>
     </section>
   </body>
-  <!-- 모바일 버전 JavaScript -->
-  <script>
-    if (window.matchMedia("(max-width: 767px)").matches) {
-      var script = document.createElement('script');
-      script.src = 'mobile.js';
-      document.body.appendChild(script);
-    }
-  </script>
-  <!-- 데스크탑 버전 JavaScript -->
-  <script>
-    if (window.matchMedia("(min-width: 768px)").matches) {
-      var script = document.createElement('script');
-      script.src = 'desktop.js';
-      document.body.appendChild(script);
-    }
-  </script>
+    <!-- 모바일 버전 JavaScript -->
+    <script>
+      if (window.matchMedia("(max-width: 767px)").matches) {
+        var script = document.createElement('script');
+        script.src = 'mobile.js';
+        document.body.appendChild(script);
+      }
+    </script>
+    <!-- 데스크탑 버전 JavaScript -->
+    <script>
+      if (window.matchMedia("(min-width: 768px)").matches) {
+        var script = document.createElement('script');
+        script.src = 'desktop.js';
+        document.body.appendChild(script);
+      }
+    </script>
 </html>
