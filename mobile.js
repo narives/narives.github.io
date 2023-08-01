@@ -43,7 +43,7 @@ e.preventDefault();
 // 이미지 슬라이드
 let imgIndex = 0;
 let position = 0;
-const IMG_WIDTH = 280;
+const IMG_WIDTH = 140;
 const $btnPrev = document.querySelector(".btn-prev");
 const $btnNext = document.querySelector(".btn-next");
 const $slideImgs = document.querySelector(".slide-images");

@@ -21,8 +21,8 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 10px;
-  font-size: 10px;
+  margin: 0 5px;
+  font-size: 8px;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 600;
 }
@@ -146,33 +146,33 @@ b:hover {
 }
 
 #window2 .slide-container {
-  width: 280px;
-  height: 360px;
+  width: 140px;
+  height: 180px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 20px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 30%;
+  top: 25%;
 }
 
 #window2 .slide-album {
   position: relative;
-  width: 280px;
-  height: 360px;
+  width: 140px;
+  height: 180px;
   overflow: hidden;
   border-radius: 20px;
 }
 #window2 .slide-images {
   position: relative;
   display: flex;
-  width: 1120px;
-  height: 360px;
+  width: 700px;
+  height: 180px;
   transition: transform 0.5s ease-out;
 }
 #window2 .slide-images img {
-  width: 280px;
+  width: 140px;
   height: auto;
 }
 
@@ -206,11 +206,11 @@ b:hover {
   transition: 0.7s ease-out;
 }
 .btn-prev {
-  left: 18px;
+  left: 0px;
   top: 46%;
 }
 .btn-next {
-  right: 18px;
+  right: 0px;
   top: 46%;
 }
 
@@ -225,7 +225,7 @@ b:hover {
 }
 
 #window2 #activity {
-  top: 62.5%;
+  top: 65.5%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -237,7 +237,7 @@ b:hover {
 #window2 h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   line-height: 2.5;
   text-align: center;
@@ -353,7 +353,7 @@ b:hover {
 }
 
 #window4 #loves {
-  top: 23%;
+  top: 16.5%;
   position: absolute;
 }
 
