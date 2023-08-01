@@ -147,8 +147,8 @@ b:hover {
 }
 
 #window2 .slide-container {
-  width: 140px;
-  height: 180px;
+  width: 112px;
+  height: 144px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 10px;
@@ -160,20 +160,20 @@ b:hover {
 
 #window2 .slide-album {
   position: relative;
-  width: 140px;
-  height: 180px;
+  width: 112px;
+  height: 144px;
   overflow: hidden;
   border-radius: 10px;
 }
 #window2 .slide-images {
   position: relative;
   display: flex;
-  width: 700px;
-  height: 180px;
+  width: 560px;
+  height: 144px;
   transition: transform 0.5s ease-out;
 }
 #window2 .slide-images img {
-  width: 140px;
+  width: 112px;
   height: auto;
 }
 
@@ -185,7 +185,7 @@ b:hover {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 7px;
+  font-size: 5px;
   border-radius: 100%;
 }
 .btn-prev,
@@ -196,7 +196,7 @@ b:hover {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 7px;
+  font-size: 5px;
   border-radius: 100%;
 }
 .btn-next:hover,
@@ -291,19 +291,20 @@ b:hover {
 }
 
 #window3 #skills {
-  top: 65%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
 
 #window3 h2 {
-  margin-top: 45px;
+  top: 80%;
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   color: #fff;
-  line-height: 3.5;
+  line-height: 4.5;
   text-align: center;
+  font-size: 18px;
 }
 
 #window3 .image1 {
