@@ -33,11 +33,6 @@ nav ul li a {
   cursor: pointer;
 }
 
-.link {
-  display: inline-block;
-  padding: 5px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -261,14 +256,27 @@ b:hover {
   text-decoration: none;
 }
 
-#window2 p {
+#window2 h4 {
   font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 22px;
   color: #fff;
   line-height: 2;
   text-align: left;
-  margin-left: 2.5%;
+  margin-left: 1.5%;
+  text-decoration: none;
+}
+
+#window2 p {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  line-height: 2;
+  text-align: right;
+  position: absolute;
+  top: 63%;
+  left: 15%;
 }
 
 #window2 a {
