@@ -42,6 +42,10 @@ nav ul li a {
   caret-color: transparent;
 }
 
+.narrow-link {
+  display: inline-block;
+}
+
 body,
 html {
   position: relative;
