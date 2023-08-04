@@ -36,8 +36,9 @@ nav ul li a {
   cursor: pointer;
 }
 
-.narrow-link {
+.link {
   display: inline-block;
+  padding: 5px;
 }
 
 * {
