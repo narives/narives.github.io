@@ -409,7 +409,7 @@ b:hover {
 
 /* Window 5 */
 #window5 {
-  background-image: url('src/cat.jpg');
+  background-image: url('src/sky5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -496,6 +496,7 @@ b:hover {
 #window3,
 #window4,
 #window5 {
+  width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
 }
