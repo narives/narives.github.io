@@ -206,7 +206,7 @@ b:hover {
 .btn-prev:hover {
   cursor: pointer;
   background-color: transparent;
-  color: #e56afd;
+  color: #ed91ff;
   transition: 0.7s ease-out;
 }
 .btn-prev {
