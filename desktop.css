@@ -253,6 +253,7 @@ b:hover {
   line-height: 2.5;
   text-align: left;
   margin-left: 1.5%;
+  text-decoration: none;
 }
 
 #window2 p {
@@ -263,6 +264,10 @@ b:hover {
   line-height: 2;
   text-align: left;
   margin-left: 2.5%;
+}
+
+#window2 a {
+  text-decoration: none;
 }
 
 /* Window 3 */
