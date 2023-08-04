@@ -267,18 +267,6 @@ b:hover {
   text-decoration: none;
 }
 
-#window2 p {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  color: #fff;
-  line-height: 2;
-  text-align: right;
-  position: absolute;
-  top: 63%;
-  left: 15%;
-}
-
 #window2 a {
   text-decoration: none;
 }
