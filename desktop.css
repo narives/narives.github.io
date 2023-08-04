@@ -33,6 +33,10 @@ nav ul li a {
   cursor: pointer;
 }
 
+.narrow-link {
+  display: inline-block;
+}
+
 * {
   margin: 0;
   padding: 0;
