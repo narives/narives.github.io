@@ -256,6 +256,7 @@ b:hover {
   color: #fff;
   line-height: 2.3;
   text-align: center;
+  text-decoration: none;
 }
 
 #window2 p {
@@ -265,6 +266,10 @@ b:hover {
   color: #fff;
   line-height: 2;
   text-align: center;
+}
+
+#window2 a {
+  text-decoration: none;
 }
 
 /* Window 3 */
