@@ -200,6 +200,7 @@ b:hover {
   border: none;
   font-size: 7px;
   border-radius: 100%;
+  left: 50px;
 }
 .btn-next:hover,
 .btn-prev:hover {
@@ -209,11 +210,11 @@ b:hover {
   transition: 0.7s ease-out;
 }
 .btn-prev {
-  left: 0px;
+  left: 0%;
   top: 46%;
 }
 .btn-next {
-  right: 0px;
+  right: 0%;
   top: 46%;
 }
 
@@ -443,7 +444,7 @@ b:hover {
 }
 
 .gmail {
-  top: 28%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -451,7 +452,7 @@ b:hover {
 }
 
 .telegram {
-  top: 38%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -459,7 +460,7 @@ b:hover {
 }
 
 .github {
-  top: 48%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -467,7 +468,7 @@ b:hover {
 }
 
 .medium {
-  top: 58%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -475,7 +476,7 @@ b:hover {
 }
 
 .velog {
-  top: 68%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -483,7 +484,7 @@ b:hover {
 }
 
 .insta {
-  top: 78%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;
@@ -491,7 +492,7 @@ b:hover {
 }
 
 .soundcloud {
-  top: 88%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35px;

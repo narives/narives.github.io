@@ -212,15 +212,15 @@ b:hover {
 .btn-prev:hover {
   cursor: pointer;
   background-color: transparent;
-  color: #e56afd;
+  color: #ed91ff;
   transition: 0.7s ease-out;
 }
 .btn-prev {
-  left: 18px;
+  left: 10px;
   top: 46%;
 }
 .btn-next {
-  right: 18px;
+  right: 10px;
   top: 46%;
 }
 
