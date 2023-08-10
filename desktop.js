@@ -61,17 +61,17 @@ if (imgIndex == 0) {
 };
 
 let next = function () {
-if (imgIndex < 5) {
+if (imgIndex < 6) {
   $btnPrev.removeAttribute("disabled");
   position -= IMG_WIDTH;
   $slideImgs.style.transform = `translateX(${position}px)`;
   $slideImgs.style.transition = "transform .5s ease-out";
   imgIndex = imgIndex + 1;
 }
-if (imgIndex == 4) {
+if (imgIndex == 5) {
   $btnNext.setAttribute("disabled", "true");
 }
-};
+}
 
 let init = function () {
 $btnPrev.setAttribute("disabled", "true");
