@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+.logo {
+  position: absolute;
+  width: 130px;
+  top: 20px;
+  left: 20px;
+}
+
 /* 메뉴바 스타일 */
 nav {
   position: fixed;
