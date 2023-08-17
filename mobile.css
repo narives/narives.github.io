@@ -231,7 +231,7 @@ b:hover {
 .btn-prev:hover {
   cursor: pointer;
   background-color: transparent;
-  color: #ed91ff;
+  color: #93cddf;
   transition: 0.7s ease-out;
 }
 .btn-prev {
