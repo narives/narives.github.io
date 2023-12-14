@@ -243,6 +243,10 @@ b:hover {
   top: 46%;
 }
 
+.page-transition {
+  transition: opacity 0.5s ease-in-out;
+}
+
 #window2 #profile {
   font-family: 'SUITE-Regular', sans-serif;
   font-weight: 500;

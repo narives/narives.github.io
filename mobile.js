@@ -79,4 +79,30 @@ $btnPrev.addEventListener("click", prev);
 $btnNext.addEventListener("click", next);
 };
 
+document.addEventListener("DOMContentLoaded", function () {
+  var sections = document.querySelectorAll('.page-transition');
+
+  function smoothScroll(targetSection) {
+    window.scrollTo({
+      top: targetSection.offsetTop,
+      behavior: 'smooth'
+    });
+  }
+
+  function handleScroll() {
+    for (var i = 0; i < sections.length; i++) {
+      var section = sections[i];
+      var rect = section.getBoundingClientRect();
+
+      if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+        smoothScroll(section);
+        break;
+      }
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll);
+});
+
+
 init();
