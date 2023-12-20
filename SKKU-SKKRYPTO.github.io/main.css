@@ -1,0 +1,253 @@
+* {
+  caret-color: transparent;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 메뉴바 스타일 */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.5%;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
+}
+
+nav ul li {
+  margin: 0 25px;
+  font-size: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  position: fixed;
+}
+
+b {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 네비게이션 */
+#bthome {
+  color: #bbbbbb;
+}
+b {
+  font-size: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 5px;
+}
+b:hover {
+  color: black;
+}
+
+/* Window 1 */
+#window1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#intro {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: 'Pretendard-Regular', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+#window1 img {
+  width: 20%;
+  margin-top: 5%;
+}
+
+#window2 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* 부모 요소에 대해 position: relative; 추가 */
+}
+
+#window2 .container {
+  text-align: center;
+}
+
+#window2 .slide-container {
+  width: 1200px;
+  height: 675px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#window2 .slide-album {
+  position: relative;
+  width: 1200px;
+  height: 675px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#window2 .slide-images {
+  position: relative;
+  display: flex;
+  width: 3600px;
+  height: 675px;
+  transition: transform 0.5s ease-out;
+}
+
+#window2 .slide-images img {
+  width: 1200px;
+  height: auto;
+}
+
+.btn-next,
+.btn-next:active,
+.btn-next:focus {
+  position: absolute;
+  padding: 8px 8px 7px 14px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 22px;
+  border-radius: 100%;
+}
+
+.btn-prev,
+.btn-prev:active,
+.btn-prev:focus {
+  position: absolute;
+  padding: 8px 14px 7px 8px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 22px;
+  border-radius: 100%;
+}
+
+.btn-next:hover,
+.btn-prev:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #000000;
+  transition: 0.7s ease-out;
+}
+
+.btn-prev {
+  left: 10px;
+  top: 46%;
+}
+.btn-next {
+  right: 10px;
+  top: 46%;
+}
+
+#window3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#window3 h1 {
+  margin-top: 20%;
+  color: #ffffff;
+}
+
+#window3 a {
+  width: 20%;
+  margin-top: 20%;
+}
+
+#window3 img {
+  width: 15%;
+  margin-top: 5%;
+}
+
+#window1,
+#window2,
+#window3,
+#window4,
+#window5 {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
